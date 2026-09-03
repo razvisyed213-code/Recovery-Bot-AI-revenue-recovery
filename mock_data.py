@@ -1,0 +1,18 @@
+transactions = [
+    {"id": "TXN001", "type": "payment_failure", "amount": 1450, "customer": "Rohan Das", "reason": "card_declined", "method": "Credit Card"},
+    {"id": "TXN002", "type": "payment_failure", "amount": 8900, "customer": "Meera Joshi", "reason": "bank_server_error", "method": "Net Banking"},
+    {"id": "TXN003", "type": "payment_failure", "amount": 3200, "customer": "Aditya Menon", "reason": "insufficient_funds", "method": "Debit Card"},
+    {"id": "TXN004", "type": "payment_failure", "amount": 999, "customer": "Pooja Reddy", "reason": "otp_timeout", "method": "UPI"},
+    {"id": "TXN005", "type": "payment_failure", "amount": 4750, "customer": "Nikhil Bhat", "reason": "card_declined", "method": "Credit Card"},
+    {"id": "TXN006", "type": "payment_failure", "amount": 1600, "customer": "Kavya Shah", "reason": "bank_server_error", "method": "Net Banking"},
+    {"id": "TXN007", "type": "payment_failure", "amount": 2300, "customer": "Suresh Pillai", "reason": "insufficient_funds", "method": "Debit Card"},
+    {"id": "TXN008", "type": "payment_failure", "amount": 3800, "customer": "Ritu Malhotra", "reason": "otp_timeout", "method": "UPI"},
+    {"id": "TXN009", "type": "payment_failure", "amount": 5200, "customer": "Manoj Tiwari", "reason": "card_declined", "method": "Credit Card"},
+    {"id": "TXN010", "type": "payment_failure", "amount": 1100, "customer": "Sanjana Gupta", "reason": "bank_server_error", "method": "Net Banking"},
+    {"id": "TXN011", "type": "payment_failure", "amount": 95000, "customer": "Suspicious User", "reason": "suspected_fraud_multiple_failed_attempts", "method": "Credit Card"},
+    {"id": "TXN012", "type": "payment_failure", "amount": 50000, "customer": "Rajesh Kumar", "reason": "card_blocked_by_bank_repeated_declines", "method": "Credit Card"},
+    {"id": "TXN013", "type": "payment_failure", "amount": 78000, "customer": "Unknown Account", "reason": "flagged_high_risk_multiple_countries", "method": "Credit Card"},
+    {"id": "TXN014", "type": "payment_failure", "amount": 62000, "customer": "Amit Chopra", "reason": "card_reported_stolen", "method": "Credit Card"},
+    {"id": "TXN015", "type": "payment_failure", "amount": 45000, "customer": "Deepika Nair", "reason": "account_frozen_by_bank_suspicious_activity", "method": "Net Banking"},
+    {"id": "TXN016", "type": "payment_failure", "amount": 88000, "customer": "Vikas Oberoi", "reason": "chargeback_dispute_previous_transaction", "method": "Credit Card"},
+]
